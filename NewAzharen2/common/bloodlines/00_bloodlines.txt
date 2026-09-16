@@ -1,0 +1,104 @@
+duke_of_bhor = {
+	strategist_opinion = 5
+	south_elf_opinion = 10
+	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_horse
+	flags = { historical_bloodline }
+}
+
+valle_king = {
+	monthly_character_prestige = 0.05
+	south_elf_opinion = -20
+	inheritance = patrilineal
+	allow_bastards = no
+	picture = GFX_bloodlines_symbol_horse
+	flags = { historical_bloodline }
+}
+
+aoles_saint = {
+	monthly_character_piety = 0.5
+	luthurian_group_opinion = 10
+	monthly_character_prestige = 0.1
+	inheritance = patrilineal
+	allow_bastards = no
+	picture = GFX_bloodlines_symbol_horse
+	flags = { historical_bloodline dynastic_bloodline dynastic_claim_k_luthuria }
+}
+
+erevan = {
+	monthly_character_piety = 0.25
+	monthly_character_prestige = 0.25
+	south_elf_opinion = 15
+	bastard_opinion = 10
+	inheritance = all_descendants
+	allow_bastards = yes
+	picture = { GFX_bloodlines_symbol_horse }
+	flags = { historical_bloodline dynastic_bloodline dynastic_claim_k_bhelfast }
+}
+
+sarnia = {
+	monthly_character_piety = 3
+	monthly_character_prestige = 3
+	sarnian_group_opinion = 25
+	sarnian_opinion = 25
+	luthurian_group_opinion = 10
+	inheritance = 
+	allow_bastards = no
+	picture = { GFX_bloodlines_symbol_horse }
+	flags = { historical_bloodline dynastic_bloodline dynastic_claim_e_sarnia }
+}
+
+redhammer = {
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.25
+	south_elf_opinion = 5
+	luthurian_group_opinion = 5
+	allow_bastards = yes
+	inheritance = all_descendants
+	picture = { GFX_bloodlines_symbol_horse }
+	flags = { historical_bloodline dynastic_bloodline dynastic_claim_k_ereiba }
+}
+
+imporian = {
+	imporian_opinion = 10
+	inheritance = patrilineal
+	allow_bastards = no
+	picture = { GFX_bloodlines_symbol_horse }
+	flags = { historical_bloodline dynastic_bloodline dynastic_claim_d_imporia }
+}
+
+new_imporian = {
+	martial = 2
+	imporian_opinion = 5
+	strategist_opinion = 5
+	trickster_opinion = 5
+	inheritance = patrilinear
+	allow_bastards = no
+	picture = { GFX_bloodlines_symbol_horse }
+	flags = { historical_bloodline dynastic_bloodline }
+}
+
+bhor = {
+	bhorman_opinion = 10
+	monthly_character_prestige = 0.25
+	listroereibian_opinion = 5
+	martial = 2
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = { GFX_bloodlines_symbol_horse }
+	flags = { historical_bloodline dynastic_bloodline dynastic_claim_c_bhor dynastic_claim_d_bhor dynastic_claim_k_bhor }
+}
+
+lisian = {
+	lisian_opinion = 10
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.1
+	martial = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = { GFX_bloodlines_symbol_horse }
+	flags = { historical_bloodline dynastic_bloodline dynastic_claim_k_lisia }
+}
