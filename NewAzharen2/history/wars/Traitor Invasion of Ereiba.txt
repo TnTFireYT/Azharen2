@@ -1,0 +1,19 @@
+name = "Traitor's Invasion of Ereiba"
+
+casus_belli = {
+	actor = 0
+	recipient = 0
+	casus_belli=tribal_invasion
+	landed_title=k_ereiba
+	date= 0.0.0
+}
+
+0.0.0 = {
+	add_attacker = 0
+	add_defender = 0
+}
+
+1000.12.25 = {
+	rem_attacker = 0
+	rem_defender = 0
+}
