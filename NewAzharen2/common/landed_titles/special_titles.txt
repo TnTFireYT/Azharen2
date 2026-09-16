@@ -1,0 +1,220 @@
+# SPECIAL TITLES
+
+k_ancient_faith = {
+	
+	color = { 255 198 249 }
+	color2 = { 220 220 0 }
+	
+	capital = 496
+	
+	title = "NFLAME"
+	title_female = "NFLAME_female"
+	foa = "NFLAME_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = ancient_faith
+	culture = bhelfastian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dignity = 100
+}
+
+k_six_gods = {
+
+	color = { 183 60 155 }
+	color2 = { 220 220 0 }
+	
+	capital = 496
+	
+	title = "SGODS"
+	title_female = "SGODS_female"
+	foa = "SGODS_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = six_gods
+	culture = luthurian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dignity = 100
+}
+
+d_seven_gods = {
+
+	color = { 183 60 155 }
+	color2 = { 220 220 0 }
+	
+	capital = 496
+	
+	title = "SGODS1"
+	title_female = "SGODS1_female"
+	foa = "SGODS1_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = seven_gods
+	culture = luthurian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dignity = 100
+}
+
+d_tsoulolthism = {
+
+	color = { 183 60 155 }
+	color2 = { 220 220 0 }
+	
+	capital = 496
+	
+	title = "SGODS2"
+	title_female = "SGODS2_female"
+	foa = "SGODS2_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = no
+	
+	# Controls a religion
+	controls_religion = tsoulolthism
+	
+	caliphate = yes
+	
+	culture = luthurian
+	
+	# Cannot be held as a secondary title
+	primary = no
+	
+	dignity = 100
+}
+
+d_six_gods_medusian = {
+
+	color = { 183 60 155 }
+	color2 = { 220 220 0 }
+	
+	capital = 496
+	
+	title = "SGODS3"
+	title_female = "SGODS3_female"
+	foa = "SGODS3_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = six_gods_medusian
+	
+	culture = luthurian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dignity = 100
+}
+
+d_the_first_six = {
+
+	color = { 183 60 155 }
+	color2 = { 220 220 0 }
+	
+	capital = 496
+	
+	title = "SGODS4"
+	title_female = "SGODS4_female"
+	foa = "SGODS4_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = the_first_six
+	
+	culture = luthurian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dignity = 100
+}
+
+d_sons_swords = {
+
+	color = { 183 60 155 }
+	color2 = { 220 220 0 }
+	
+	capital = 496
+	
+	title = "SGODS5"
+	title_female = "SGODS5_female"
+	foa = "SGODS5_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = sons_swords
+	
+	culture = luthurian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dignity = 100
+}
+
+d_the_one = {
+
+	color = { 183 60 155 }
+	color2 = { 220 220 0 }
+	
+	capital = 496
+	
+	title = "SGODS6"
+	title_female = "SGODS6_female"
+	foa = "SGODS6_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = the_one
+	
+	culture = luthurian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dignity = 100
+}
