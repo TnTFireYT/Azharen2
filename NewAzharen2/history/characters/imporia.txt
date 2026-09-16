@@ -1,0 +1,33 @@
+999999999 = {
+	name="Aeolas"
+	dynasty=1
+	dna="medjejoencc"
+	properties="ae01e1"
+	martial=7
+	diplomacy=3
+	intrigue=4
+	stewardship=6
+	religion="six_gods"
+	culture="imporian"
+	add_trait="brilliant_strategist"
+	add_trait="trickster"
+	add_trait="inspiring_leader"
+	add_trait="genius"
+	add_trait="strategist"
+	add_trait="brave"
+	add_trait="diligent"
+	add_trait="ambitious"
+	add_trait="shrewd"
+	add_trait="proud"
+	add_trait="arbitrary"
+	842.1.1={
+		birth = yes
+			create_bloodline = {
+				type = new_imporian
+				has_dlc = "Holy Fury"
+			}
+	}
+	901.1.1={
+		death = yes
+	}
+}
